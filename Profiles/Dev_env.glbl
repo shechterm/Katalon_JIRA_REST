@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Dev_env</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>The Base REST URL</description>
+      <initValue>'test-acjira/rest/api/2'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>IssueKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('projectKey') : 'VOCAVB', ('description') : 'Bug issueType test', ('issueType') : 'Bug', ('summary') : 'Bug REST API TEST', ('bugIssueKey') : '']</initValue>
+      <name>bugParams</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

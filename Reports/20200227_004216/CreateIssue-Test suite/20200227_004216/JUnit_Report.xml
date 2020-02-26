@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateIssue-Test suite" time="3.996" tests="1" failures="0" errors="0">
+   <testsuite name="CreateIssue-Test suite" tests="1" failures="0" errors="0" time="3.996" timestamp="2020-02-27 00:42:31" hostname="michaelshechter - 10.100.102.7" id="Test Suites/CreateIssue-Test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/michaelshechter/Downloads/Katalon/Jira/Reports/20200227_004216/CreateIssue-Test suite/20200227_004216"/>
+         <property name="logFiles" value="/Users/michaelshechter/Downloads/Katalon/Jira/Reports/20200227_004216/CreateIssue-Test suite/20200227_004216/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="michaelshechter - 10.100.102.7"/>
+         <property name="hostAddress" value="10.100.102.7"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Issue/Controller" time="3.549" classname="Test Cases/Issue/Controller" status="PASSED">
+         <system-out><![CDATA[2020-02-27 00:42:31 - [TEST_CASE][PASSED] - Test Cases/Issue/Controller: Test Cases/Issue/Controller
+
+2020-02-27 00:42:31 - [TEST_STEP][PASSED] - projectKey = "SBC": null
+
+2020-02-27 00:42:31 - [TEST_STEP][PASSED] - description = "This is Description": null
+
+2020-02-27 00:42:31 - [TEST_STEP][PASSED] - summary = "This is Summary": null
+
+2020-02-27 00:42:31 - [TEST_STEP][PASSED] - issueType = "Bug": null
+
+2020-02-27 00:42:31 - [TEST_STEP][PASSED] - body = 
+{
+   
+    "fields":{
+      
+       "project":
+      {
+         
+          "key":"$projectKey"         
+
+      },
+      
+       "summary":"$summary",
+      
+       "description":"$description",
+      
+       "customfield_10107":{
+         "value":"FieldBug"
+      },
+      
+       "customfield_10113":[
+         {
+            "value":"None"
+         }
+      ],
+      
+       "customfield_10114":"3.1.2.89",
+      
+       "customfield_10102":{
+         
+      "value":"Functional"
+
+      },
+      
+    "customfield_10803":"AudioCodes Test",
+      
+    "customfield_10601":"2705",
+      
+    "customfield_10509":"180924-000152",
+      
+        "assignee":null,
+      
+            "reporter":{
+         
+      "name":"DanielSh"
+
+      },
+      
+    "components":[
+         
+         {
+            
+        "name":"ETAS"
+
+         }         
+
+      ],
+      
+    "versions":[
+         
+         {
+            
+        "name":"VOCAVB7.7.5"
+
+         }         
+
+      ],
+      
+          "priority":{
+         
+      "name":"Medium"
+
+      },
+      
+       "issuetype":{
+         
+          "name":"$issueType" 
+
+      }      
+
+   }   
+
+}
+
+
+: null
+
+2020-02-27 00:42:31 - [TEST_STEP][PASSED] - crateIssueResponse = callTestCase(findTestCase("Issue/Create_Issue"), ["body":body], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Issue/Create_Issue' successfully
+
+2020-02-27 00:42:32 - [TEST_CASE][PASSED] - Test Cases/Issue/Create_Issue: Test Cases/Issue/Create_Issue
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - userName = "michaelsh": null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - bugParams = bugParams: null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - println(bugParams): null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - createIssueRequest = findTestObject("REST/Issue/CreateIssue"): null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - println(createIssueRequest): null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - try: null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - createIssueRequest.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json)): null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - println(createIssueRequest): null
+
+2020-02-27 00:42:32 - [TEST_STEP][PASSED] - response = sendRequest(createIssueRequest): Send request successfully
+
+2020-02-27 00:42:35 - [MESSAGE][INFO] - HAR: /Users/michaelshechter/Downloads/Katalon/Jira/Reports/20200227_004216/CreateIssue-Test suite/20200227_004216/requests/main/0.har
+
+2020-02-27 00:42:35 - [MESSAGE][PASSED] - Send request successfully
+
+2020-02-27 00:42:35 - [TEST_STEP][PASSED] - result = slurper.parseText(response.getResponseBodyContent()): null
+
+2020-02-27 00:42:35 - [TEST_STEP][PASSED] - return result: null
+
+2020-02-27 00:42:35 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2020-02-27 00:42:35 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2020-02-27 00:42:35 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2020-02-27 00:42:35 - [MESSAGE][INFO] - ===============================================================
+
+2020-02-27 00:42:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Issue/Create_Issue' successfully
+
+2020-02-27 00:42:35 - [TEST_STEP][PASSED] - println(crateIssueResponse = $crateIssueResponse): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-27 00:42:31 - [TEST_SUITE][PASSED] - CreateIssue-Test suite: Test Cases/Issue/Controller]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

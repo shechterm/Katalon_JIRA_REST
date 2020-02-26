@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951313</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/CreateIssue-Test suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">CreateIssue-Test suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/CreateIssue-Test suite</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951325</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = michaelshechter - 10.100.102.7</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">michaelshechter - 10.100.102.7</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951326</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951327</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.100.102.7</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.100.102.7</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951328</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951480</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start setup action : setUp</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="isIgnoredIfFailed">false</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951658</millis>
+  <sequence>6</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Method &amp;apos;setUp&amp;apos; complete successfully</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951659</millis>
+  <sequence>7</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : setUp</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951733</millis>
+  <sequence>8</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Issue/Controller</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Issue/Controller</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Issue/Controller</property>
+  <property name="source">\\Users\\michaelshechter\\Downloads\\Katalon\\Jira\\Test Cases\\Issue\\Controller.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951873</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : projectKey = \&amp;quot;SBC\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951874</millis>
+  <sequence>11</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : projectKey = \&amp;quot;SBC\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951874</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : description = \&amp;quot;This is Description\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951885</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : description = \&amp;quot;This is Description\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951886</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : summary = \&amp;quot;This is Summary\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951888</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : summary = \&amp;quot;This is Summary\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951888</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : issueType = \&amp;quot;Bug\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951890</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : issueType = \&amp;quot;Bug\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951890</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : body = \n{\n   \r\n    \&amp;quot;fields\&amp;quot;:{\n      \r\n       \&amp;quot;project\&amp;quot;:\r\n      {\n         \r\n          \&amp;quot;key\&amp;quot;:\&amp;quot;$projectKey\&amp;quot;         \r\n\n      },\n      \r\n       \&amp;quot;summary\&amp;quot;:\&amp;quot;$summary\&amp;quot;,\n      \r\n       \&amp;quot;description\&amp;quot;:\&amp;quot;$description\&amp;quot;,\n      \r\n       \&amp;quot;customfield_10107\&amp;quot;:{\n         \&amp;quot;value\&amp;quot;:\&amp;quot;FieldBug\&amp;quot;\n      },\n      \r\n       \&amp;quot;customfield_10113\&amp;quot;:[\n         {\n            \&amp;quot;value\&amp;quot;:\&amp;quot;None\&amp;quot;\n         }\n      ],\n      \r\n       \&amp;quot;customfield_10114\&amp;quot;:\&amp;quot;3.1.2.89\&amp;quot;,\n      \r\n       \&amp;quot;customfield_10102\&amp;quot;:{\n         \r\n      \&amp;quot;value\&amp;quot;:\&amp;quot;Functional\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;customfield_10803\&amp;quot;:\&amp;quot;AudioCodes Test\&amp;quot;,\n      \r\n    \&amp;quot;customfield_10601\&amp;quot;:\&amp;quot;2705\&amp;quot;,\n      \r\n    \&amp;quot;customfield_10509\&amp;quot;:\&amp;quot;180924-000152\&amp;quot;,\n      \r\n        \&amp;quot;assignee\&amp;quot;:null,\n      \r\n            \&amp;quot;reporter\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;DanielSh\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;components\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;ETAS\&amp;quot;\r\n\n         }         \r\n\n      ],\n      \r\n    \&amp;quot;versions\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;VOCAVB7.7.5\&amp;quot;\r\n\n         }         \r\n\n      ],\n      \r\n          \&amp;quot;priority\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;Medium\&amp;quot;\r\n\n      },\n      \r\n       \&amp;quot;issuetype\&amp;quot;:{\n         \r\n          \&amp;quot;name\&amp;quot;:\&amp;quot;$issueType\&amp;quot; \r\n\n      }      \r\n\n   }   \r\n\n}\r\n\n\n</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951900</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : body = \n{\n   \r\n    \&amp;quot;fields\&amp;quot;:{\n      \r\n       \&amp;quot;project\&amp;quot;:\r\n      {\n         \r\n          \&amp;quot;key\&amp;quot;:\&amp;quot;$projectKey\&amp;quot;         \r\n\n      },\n      \r\n       \&amp;quot;summary\&amp;quot;:\&amp;quot;$summary\&amp;quot;,\n      \r\n       \&amp;quot;description\&amp;quot;:\&amp;quot;$description\&amp;quot;,\n      \r\n       \&amp;quot;customfield_10107\&amp;quot;:{\n         \&amp;quot;value\&amp;quot;:\&amp;quot;FieldBug\&amp;quot;\n      },\n      \r\n       \&amp;quot;customfield_10113\&amp;quot;:[\n         {\n            \&amp;quot;value\&amp;quot;:\&amp;quot;None\&amp;quot;\n         }\n      ],\n      \r\n       \&amp;quot;customfield_10114\&amp;quot;:\&amp;quot;3.1.2.89\&amp;quot;,\n      \r\n       \&amp;quot;customfield_10102\&amp;quot;:{\n         \r\n      \&amp;quot;value\&amp;quot;:\&amp;quot;Functional\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;customfield_10803\&amp;quot;:\&amp;quot;AudioCodes Test\&amp;quot;,\n      \r\n    \&amp;quot;customfield_10601\&amp;quot;:\&amp;quot;2705\&amp;quot;,\n      \r\n    \&amp;quot;customfield_10509\&amp;quot;:\&amp;quot;180924-000152\&amp;quot;,\n      \r\n        \&amp;quot;assignee\&amp;quot;:null,\n      \r\n            \&amp;quot;reporter\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;DanielSh\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;components\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;ETAS\&amp;quot;\r\n\n         }         \r\n\n      ],\n      \r\n    \&amp;quot;versions\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;VOCAVB7.7.5\&amp;quot;\r\n\n         }         \r\n\n      ],\n      \r\n          \&amp;quot;priority\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;Medium\&amp;quot;\r\n\n      },\n      \r\n       \&amp;quot;issuetype\&amp;quot;:{\n         \r\n          \&amp;quot;name\&amp;quot;:\&amp;quot;$issueType\&amp;quot; \r\n\n      }      \r\n\n   }   \r\n\n}\r\n\n\n</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:31</date>
+  <millis>1582756951901</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : crateIssueResponse = callTestCase(findTestCase(\&amp;quot;Issue/Create_Issue\&amp;quot;), [\&amp;quot;body\&amp;quot;:body], CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952041</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Issue/Create_Issue</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Issue/Create_Issue</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Issue/Create_Issue</property>
+  <property name="source">\\Users\\michaelshechter\\Downloads\\Katalon\\Jira\\Test Cases\\Issue\\Create_Issue.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952051</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>body = \n{\n   \r\n    \&amp;quot;fields\&amp;quot;:{\n      \r\n       \&amp;quot;project\&amp;quot;:\r\n      {\n         \r\n          \&amp;quot;key\&amp;quot;:\&amp;quot;SBC\&amp;quot;         \r\n\n      },\n      \r\n       \&amp;quot;summary\&amp;quot;:\&amp;quot;This is Summary\&amp;quot;,\n      \r\n       \&amp;quot;description\&amp;quot;:\&amp;quot;This is Description\&amp;quot;,\n      \r\n       \&amp;quot;customfield_10107\&amp;quot;:{\n         \&amp;quot;value\&amp;quot;:\&amp;quot;FieldBug\&amp;quot;\n      },\n      \r\n       \&amp;quot;customfield_10113\&amp;quot;:[\n         {\n            \&amp;quot;value\&amp;quot;:\&amp;quot;None\&amp;quot;\n         }\n      ],\n      \r\n       \&amp;quot;customfield_10114\&amp;quot;:\&amp;quot;3.1.2.89\&amp;quot;,\n      \r\n       \&amp;quot;customfield_10102\&amp;quot;:{\n         \r\n      \&amp;quot;value\&amp;quot;:\&amp;quot;Functional\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;customfield_10803\&amp;quot;:\&amp;quot;AudioCodes Test\&amp;quot;,\n      \r\n    \&amp;quot;customfield_10601\&amp;quot;:\&amp;quot;2705\&amp;quot;,\n      \r\n    \&amp;quot;customfield_10509\&amp;quot;:\&amp;quot;180924-000152\&amp;quot;,\n      \r\n        \&amp;quot;assignee\&amp;quot;:null,\n      \r\n            \&amp;quot;reporter\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;DanielSh\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;components\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;ETAS\&amp;quot;\r\n\n         }         \r\n\n      ],\n      \r\n    \&amp;quot;versions\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;VOCAVB7.7.5\&amp;quot;\r\n\n         }         \r\n\n      ],\n      \r\n          \&amp;quot;priority\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;Medium\&amp;quot;\r\n\n      },\n      \r\n       \&amp;quot;issuetype\&amp;quot;:{\n         \r\n          \&amp;quot;name\&amp;quot;:\&amp;quot;Bug\&amp;quot; \r\n\n      }      \r\n\n   }   \r\n\n}\r\n\n\n</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952192</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952196</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952196</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : userName = \&amp;quot;michaelsh\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952197</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : userName = \&amp;quot;michaelsh\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952197</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : bugParams = bugParams</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952273</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : bugParams = bugParams</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952273</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(bugParams)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952278</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(bugParams)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952278</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : createIssueRequest = findTestObject(\&amp;quot;REST/Issue/CreateIssue\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952399</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : createIssueRequest = findTestObject(\&amp;quot;REST/Issue/CreateIssue\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952399</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(createIssueRequest)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952400</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(createIssueRequest)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952400</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952400</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : createIssueRequest.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952414</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : createIssueRequest.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952414</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(createIssueRequest)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952416</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(createIssueRequest)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952416</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:32</date>
+  <millis>1582756952416</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(createIssueRequest)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955212</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/michaelshechter/Downloads/Katalon/Jira/Reports/20200227_004216/CreateIssue-Test suite/20200227_004216/requests/main/0.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">c9b7a15e-9098-44bb-9768-152294fdd833</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955268</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955268</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(createIssueRequest)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955269</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : result = slurper.parseText(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955276</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : result = slurper.parseText(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955276</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : return result</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955277</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : return result</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955277</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Issue/Create_Issue</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955277</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Issue/Create_Issue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955277</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>=================== Smart XPath Report =======================</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955278</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refer to the link below to preview and approve auto healing on broken test objects.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955278</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955278</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>===============================================================</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955280</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Issue/Create_Issue&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955280</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : crateIssueResponse = callTestCase(findTestCase(\&amp;quot;Issue/Create_Issue\&amp;quot;), [\&amp;quot;body\&amp;quot;:body], CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955281</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(crateIssueResponse = $crateIssueResponse)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955282</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(crateIssueResponse = $crateIssueResponse)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955282</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Issue/Controller</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955282</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Issue/Controller</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955282</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>=================== Smart XPath Report =======================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955283</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refer to the link below to preview and approve auto healing on broken test objects.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955283</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955283</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>===============================================================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-02-27T00:42:35</date>
+  <millis>1582756955309</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/CreateIssue-Test suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
