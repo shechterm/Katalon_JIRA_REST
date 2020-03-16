@@ -26,7 +26,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic bWljaGFlbHNoOktvYmlzMzAwNTg2</value>
+      <value>Basic bWljaGFlbHNoOkdmb2U3MTg2ITMwMDUq</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>

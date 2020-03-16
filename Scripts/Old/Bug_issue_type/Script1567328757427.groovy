@@ -22,7 +22,7 @@ def slurper = new groovy.json.JsonSlurper()
 //Create new Request
 def request = (RequestObject)findTestObject('Old/CreateIssue')
 print request
-def  bugParams = GlobalVariable.bugParams
+def  bugParams = GlobalVariable.testCaseParams
 //println bugParams.projectKey
 
 
@@ -87,7 +87,7 @@ def response  =  WS.sendRequest(request)
 WS.verifyResponseStatusCodeInRange(response, 200, 400,FailureHandling.STOP_ON_FAILURE)
 def result = slurper.parseText(response.getResponseBodyContent())
 // Get BugIsuueType key
-GlobalVariable.bugParams.bugIssueKey = result.key  
+GlobalVariable.testCaseParams.bugIssueKey = result.key  
 
 println bugParams.bugIssueKey
 //get bug issue object

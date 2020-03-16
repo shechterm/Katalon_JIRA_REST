@@ -3,6 +3,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import org.junit.After
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,7 +20,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 //Set Params for create issu test case
-String projectKey = 'SBC';
+String projectKey = 'VOCAVB';
 String description = "This is Description";
 String summary = "This is Summary";
 String issueType = "Bug";
@@ -71,7 +74,23 @@ String body  = """
 """
 
 // Call Create issue test case
-def crateIssueResponse =  WS.callTestCase(findTestCase('Issue/Create_Issue'),[('body'):body],FailureHandling.CONTINUE_ON_FAILURE)
+WS.callTestCase(findTestCase('Issue/Create_Issue'),[('body'):body],FailureHandling.STOP_ON_FAILURE)
+def CreateIssueResponse = GlobalVariable.response
 
-println "crateIssueResponse = ${crateIssueResponse}"
+
+
+
+println CreateIssueResponse 
+
+def issueKey = CreateIssueResponse.key
+def id = CreateIssueResponse.id
+println "issue key = ${issueKey} | key = ${id}"
+
+
+
+
+
+
+
+
 

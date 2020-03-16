@@ -34,11 +34,11 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  */
-@SetUp(skipped = false) // Please change skipped to be false to activate this method.
+@SetUp(skipped = true) // Please change skipped to be false to activate this method.
 def setUp() {
+	
 	//Calling Create issue test case and passing params
 	//WS.callTestCase(findTestCase('Test Cases/Issue/createIssue'),[('test'):"Liraz"],FailureHandling.STOP_ON_FAILURE )
-	
 }
 /**
  * Clean test suites environment.

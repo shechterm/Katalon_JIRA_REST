@@ -16,14 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 
 def slurper = new groovy.json.JsonSlurper()
-String userName='michaelsh';
-def  bugParams = GlobalVariable.bugParams
-println bugParams
-
-
 def createIssueRequest = (RequestObject)findTestObject('REST/Issue/CreateIssue');
-println  createIssueRequest
-//println "Body value = ${body}"
 try{
 	//Need to add auth params
 	//createIssueRequest.setHttpHeaderProperties(null)
@@ -35,13 +28,19 @@ println(ex)
 }
 //Set Response object
 def response  =  WS.sendRequest(createIssueRequest)
+//GlobalVariable.response = slurper.parseText(response.getResponseBodyContent())
+
 //Check  Response code is the 200  || stop if fail
-//WS.verifyResponseStatusCodeInRange(response, 200, 201,FailureHandling.CONTINUE_ON_FAILURE)
-def result = slurper.parseText(response.getResponseBodyContent())
-return result
+WS.verifyResponseStatusCodeInRange(response, 200, 201,FailureHandling.STOP_ON_FAILURE)
+//def result = slurper.parseText(response.getResponseBodyContent())
+GlobalVariable.response = slurper.parseText(response.getResponseBodyContent())
+//return result
+
+
+
 
 /*
-GlobalVariable.bugParams.bugIssueKey = result.key
+GlobalVariable.testCaseParams.bugIssueKey = result.key
 
 println bugParams.bugIssueKey
 //get bug issue object
