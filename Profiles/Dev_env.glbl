@@ -11,13 +11,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'VOCAVB-1431'</initValue>
+      <initValue>''</initValue>
       <name>IssueKey</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>[('projectKey') : 'VOCAVB', ('description') : 'Bug issueType test', ('issueType') : 'Bug', ('summary') : 'Bug REST API TEST', ('bugIssueKey') : '', ('body') : '&quot;init value&quot;']</initValue>
-      <name>testCaseParams</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

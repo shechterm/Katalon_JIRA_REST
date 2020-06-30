@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>getTransition</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f9b4d30-97f4-4d44-8a03-304d1f20f466</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86dc3fc6-7896-461b-96c9-8861d7d42fca</id>
+      <masked>false</masked>
+      <name>issueKey</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EpicTest" time="0.85" tests="1" failures="0" errors="1">
+   <testsuite name="EpicTest" tests="1" failures="0" errors="1" time="0.85" timestamp="2020-06-15 11:42:17" hostname="michaelshechter - michaels-mbp.corp.audiocodes.com" id="Test Suites/EpicTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200615_114212/EpicTest/20200615_114212"/>
+         <property name="logFiles" value="/Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200615_114212/EpicTest/20200615_114212/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="michaelshechter - michaels-mbp.corp.audiocodes.com"/>
+         <property name="hostAddress" value="10.20.2.132"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+      </properties>
+      <testcase name="Test Cases/Issue/Epic/Epic-Controller" time="0.479" classname="Test Cases/Issue/Epic/Epic-Controller" status="ERROR">
+         <error type="ERROR" message="Test Cases/Issue/Epic/Epic-Controller FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: epicName for class: Script1591094305440
+	at Epic-Controller.run(Epic-Controller:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592210532025.run(TempTestSuite1592210532025.groovy:37)
+"/>
+         <system-out><![CDATA[2020-06-15 11:42:18 - [TEST_CASE][ERROR] - Test Cases/Issue/Epic/Epic-Controller: Test Cases/Issue/Epic/Epic-Controller FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: epicName for class: Script1591094305440
+	at Epic-Controller.run(Epic-Controller:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592210532025.run(TempTestSuite1592210532025.groovy:37)
+
+
+2020-06-15 11:42:18 - [TEST_STEP][PASSED] - body = 
+{
+   
+    "fields":{
+      
+       "project":
+      {
+         
+          "key":"$projectKey"         
+
+      },
+	 
+       "customfield_10002":"$epicName",
+	 
+       "customfield_10504":": { "value": "yes" }",
+      
+       "summary":"$summary",
+      
+       "description":"$description",
+	  
+       "customfield_10504":{"value": "yes" },
+	  
+       "customfield_11701":{"value": "Yes" },
+	  
+       "customfield_12700":{"value": "Yes" },
+      
+       "customfield_10113":[
+         {
+            "value":"$relevantPlatform"
+         }
+      ],
+      
+        "assignee":{"name":"$assignee"
+},
+                "reporter":{
+         
+      "name":"$reporter"
+
+      },
+      
+    "components":[
+         
+         {
+            
+        "name":"$component"
+
+         }         
+
+      ],
+ 
+      
+          "priority":{
+         
+      "name":"$priority"
+
+      },
+      
+       "issuetype":{
+         
+          "name":"$issueType" 
+
+      }      
+
+   }   
+
+}
+
+: null]]></system-out>
+         <system-err><![CDATA[2020-06-15 11:42:18 - [TEST_CASE][ERROR] - Test Cases/Issue/Epic/Epic-Controller: Test Cases/Issue/Epic/Epic-Controller FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: epicName for class: Script1591094305440
+	at Epic-Controller.run(Epic-Controller:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592210532025.run(TempTestSuite1592210532025.groovy:37)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-15 11:42:17 - [TEST_SUITE][ERROR] - EpicTest: Test Cases/Issue/Epic/Epic-Controller FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: epicName for class: Script1591094305440
+	at Epic-Controller.run(Epic-Controller:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592210532025.run(TempTestSuite1592210532025.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-06-15 11:42:17 - [TEST_SUITE][ERROR] - EpicTest: Test Cases/Issue/Epic/Epic-Controller FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: epicName for class: Script1591094305440
+	at Epic-Controller.run(Epic-Controller:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1592210532025.run(TempTestSuite1592210532025.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>

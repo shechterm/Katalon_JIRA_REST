@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateIssue-Test suite" time="9.176" tests="1" failures="0" errors="0">
+   <testsuite name="CreateIssue-Test suite" tests="1" failures="0" errors="0" time="9.176" timestamp="2020-04-01 15:03:56" hostname="michaelshechter - 10.100.102.5" id="Test Suites/CreateIssue-Test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200401_150336/CreateIssue-Test suite/20200401_150336"/>
+         <property name="logFiles" value="/Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200401_150336/CreateIssue-Test suite/20200401_150336/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="michaelshechter - 10.100.102.5"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Issue/Controller" time="8.85" classname="Test Cases/Issue/Controller" status="PASSED">
+         <system-out><![CDATA[2020-04-01 15:03:56 - [TEST_CASE][PASSED] - Test Cases/Issue/Controller: Test Cases/Issue/Controller
+
+2020-04-01 15:03:57 - [TEST_STEP][PASSED] - body = 
+{
+   
+    "fields":{
+      
+       "project":
+      {
+         
+          "key":"$projectKey"         
+
+      },
+      
+       "summary":"$summary",
+      
+       "description":"$description",
+      
+       "customfield_10107":{
+         "value":"$typeOfBug"
+      },
+      
+       "customfield_10113":[
+         {
+            "value":"$relevantPlatform"
+         }
+      ],
+      
+       "customfield_10114":"$foundInBuild",
+      
+       "customfield_10102":{
+         
+      "value":"$bugType"
+
+      },
+      
+        "assignee":{"name":"$assignee"
+},
+                "reporter":{
+         
+      "name":"$reporter"
+
+      },
+      
+    "components":[
+         
+         {
+            
+        "name":"$component"
+
+         }         
+
+      ],
+      
+    "versions":[
+         
+         {
+            
+        "name":"$version"
+
+         }         
+
+      ],
+      
+          "priority":{
+         
+      "name":"$priority"
+
+      },
+      
+       "issuetype":{
+         
+          "name":"$issueType" 
+
+      }      
+
+   }   
+
+}
+
+: null
+
+2020-04-01 15:03:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Issue/Create_Issue"), ["body":body], STOP_ON_FAILURE): Call Test Case 'Test Cases/Issue/Create_Issue' successfully
+
+2020-04-01 15:03:57 - [TEST_CASE][PASSED] - Test Cases/Issue/Create_Issue: Test Cases/Issue/Create_Issue
+
+2020-04-01 15:03:57 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-01 15:03:57 - [TEST_STEP][PASSED] - createIssueRequest = findTestObject("REST/Issue/CreateIssue"): null
+
+2020-04-01 15:03:58 - [TEST_STEP][PASSED] - try: null
+
+2020-04-01 15:03:58 - [TEST_STEP][PASSED] - createIssueRequest.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json)): null
+
+2020-04-01 15:03:58 - [TEST_STEP][PASSED] - println(createIssueRequest): null
+
+2020-04-01 15:03:58 - [TEST_STEP][PASSED] - response = sendRequest(createIssueRequest): Send request successfully
+
+2020-04-01 15:04:03 - [MESSAGE][INFO] - HAR: /Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200401_150336/CreateIssue-Test suite/20200401_150336/requests/main/0.har
+
+2020-04-01 15:04:03 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-01 15:04:03 - [TEST_STEP][PASSED] - println(response): null
+
+2020-04-01 15:04:03 - [TEST_STEP][PASSED] - response = slurper.parseText(response.getResponseBodyContent()): null
+
+2020-04-01 15:04:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Issue/Create_Issue' successfully
+
+2020-04-01 15:04:03 - [TEST_STEP][PASSED] - println(response): null
+
+2020-04-01 15:04:03 - [TEST_STEP][PASSED] - issueKey = key: null
+
+2020-04-01 15:04:03 - [TEST_STEP][PASSED] - id = id: null
+
+2020-04-01 15:04:03 - [TEST_STEP][PASSED] - println(issue key = $issueKey | key = $id): null
+
+2020-04-01 15:04:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Issue/getTransition"), ["issueKey":issueKey], STOP_ON_FAILURE): Call Test Case 'Test Cases/Issue/getTransition' successfully
+
+2020-04-01 15:04:03 - [TEST_CASE][PASSED] - Test Cases/Issue/getTransition: Test Cases/Issue/getTransition
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - println("###  in getTransition testCase"): null
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - println(issueKey): null
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - getTransitionRequest = findTestObject("REST/Issue/GetTransition"): null
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - try: null
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - println(getTransitionRequest): null
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - getTransitionRequest.setRestUrl(https://$GlobalVariable.URL/issue/$issueKey/transitions): null
+
+2020-04-01 15:04:04 - [TEST_STEP][PASSED] - response = sendRequest(getTransitionRequest): Send request successfully
+
+2020-04-01 15:04:05 - [MESSAGE][INFO] - HAR: /Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200401_150336/CreateIssue-Test suite/20200401_150336/requests/main/1.har
+
+2020-04-01 15:04:05 - [MESSAGE][PASSED] - Send request successfully
+
+2020-04-01 15:04:05 - [TEST_STEP][PASSED] - response = slurper.parseText(response.getResponseBodyContent()): null
+
+2020-04-01 15:04:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Issue/getTransition' successfully
+
+2020-04-01 15:04:05 - [TEST_STEP][PASSED] - println(### get transition response from  controller  = $GlobalVariable.response  #####): null
+
+2020-04-01 15:04:05 - [TEST_STEP][PASSED] - transitions.each({ -> ... }): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-01 15:03:56 - [TEST_SUITE][PASSED] - CreateIssue-Test suite: Test Cases/Issue/Controller]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

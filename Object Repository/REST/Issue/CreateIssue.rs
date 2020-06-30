@@ -26,7 +26,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic bWljaGFlbHNoOkdmb2U3MTg2ITMwMDUq</value>
+      <value>Basic bWljaGFlbHNoOkdmb2U3MTg2ITI1MDkq</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
@@ -35,13 +35,22 @@
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.URL</defaultValue>
       <description></description>
       <id>2e2e0fae-0502-4ff7-a1b4-d47e54177a62</id>
       <masked>false</masked>
       <name>URL</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1aeddf83-a050-4692-9645-b49e048bb80d</id>
+      <masked>false</masked>
+      <name>body</name>
    </variables>
    <verificationScript>
 

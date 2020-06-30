@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateIssue-Test suite" time="0.559" tests="1" failures="0" errors="1">
+   <testsuite name="CreateIssue-Test suite" tests="1" failures="0" errors="1" time="0.559" timestamp="2020-04-04 11:06:34" hostname="michaelshechter - 10.100.102.5" id="Test Suites/CreateIssue-Test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200404_110620/CreateIssue-Test suite/20200404_110620"/>
+         <property name="logFiles" value="/Users/michaelshechter/git/Katalon_JIRA_REST/Reports/20200404_110620/CreateIssue-Test suite/20200404_110620/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="michaelshechter - 10.100.102.5"/>
+         <property name="hostAddress" value="10.100.102.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Issue/Controller" time="0.35" classname="Test Cases/Issue/Controller" status="ERROR">
+         <error type="ERROR" message="Test Cases/Issue/Controller FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 94: The current scope already contains a variable of the name body
+ @ line 94, column 8.
+   String body=&quot;&quot;&quot;
+          ^
+
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 116: The current scope already contains a variable of the name body
+ @ line 116, column 8.
+   String body=&quot;&quot;&quot;
+          ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585987590106.run(TempTestSuite1585987590106.groovy:36)
+"/>
+         <system-out><![CDATA[2020-04-04 11:06:34 - [TEST_CASE][ERROR] - Test Cases/Issue/Controller: Test Cases/Issue/Controller FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 94: The current scope already contains a variable of the name body
+ @ line 94, column 8.
+   String body="""
+          ^
+
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 116: The current scope already contains a variable of the name body
+ @ line 116, column 8.
+   String body="""
+          ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585987590106.run(TempTestSuite1585987590106.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-04-04 11:06:34 - [TEST_CASE][ERROR] - Test Cases/Issue/Controller: Test Cases/Issue/Controller FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 94: The current scope already contains a variable of the name body
+ @ line 94, column 8.
+   String body="""
+          ^
+
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 116: The current scope already contains a variable of the name body
+ @ line 116, column 8.
+   String body="""
+          ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585987590106.run(TempTestSuite1585987590106.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-04 11:06:34 - [TEST_SUITE][ERROR] - CreateIssue-Test suite: Test Cases/Issue/Controller FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 94: The current scope already contains a variable of the name body
+ @ line 94, column 8.
+   String body="""
+          ^
+
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 116: The current scope already contains a variable of the name body
+ @ line 116, column 8.
+   String body="""
+          ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585987590106.run(TempTestSuite1585987590106.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-04-04 11:06:34 - [TEST_SUITE][ERROR] - CreateIssue-Test suite: Test Cases/Issue/Controller FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 94: The current scope already contains a variable of the name body
+ @ line 94, column 8.
+   String body="""
+          ^
+
+file:/Users/michaelshechter/git/Katalon_JIRA_REST/Scripts/Issue/Controller/Script1582753849126.groovy: 116: The current scope already contains a variable of the name body
+ @ line 116, column 8.
+   String body="""
+          ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585987590106.run(TempTestSuite1585987590106.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
