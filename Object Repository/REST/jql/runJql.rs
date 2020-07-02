@@ -35,7 +35,9 @@
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.URL</defaultValue>
       <description></description>

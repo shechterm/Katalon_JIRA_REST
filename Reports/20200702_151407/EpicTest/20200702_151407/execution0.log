@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-07-02T15:14:23</date>
+  <millis>1593692063951</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/EpicTest</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">EpicTest</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/EpicTest</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:23</date>
+  <millis>1593692063983</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = michaelsh - IL-MICHAELSH-LP.corp.audiocodes.com</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">michaelsh - IL-MICHAELSH-LP.corp.audiocodes.com</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:23</date>
+  <millis>1593692063987</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:23</date>
+  <millis>1593692063989</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.56.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:23</date>
+  <millis>1593692063991</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.5.10.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.5.10.1</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:24</date>
+  <millis>1593692064586</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Issue/Epic/Epic-Controller</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Issue/Epic/Epic-Controller</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Issue/Epic/Epic-Controller</property>
+  <property name="source">C:\\Users\\michaelsh\\git\\Katalon_JIRA_REST\\Test Cases\\Issue\\Epic\\Epic-Controller.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:24</date>
+  <millis>1593692064904</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) projectKey = SBC</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:24</date>
+  <millis>1593692064949</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) issueType = Epic</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:24</date>
+  <millis>1593692064992</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) summary = Epic-Summary</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065025</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) description = Epic-description</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065048</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) relevantPlatform = All</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065092</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) foundInBuild = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065142</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) assignee = michaelsh</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065191</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) reporter = michaelsh</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065231</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) component = General</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065261</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) version = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065281</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) priority = Low</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065309</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) issueKey = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:25</date>
+  <millis>1593692065340</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) epicName = EpicName</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:26</date>
+  <millis>1593692066087</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : body = \n{\n   \r\n    \&amp;quot;fields\&amp;quot;:{\n      \r\n       \&amp;quot;project\&amp;quot;:\r\n      {\n         \r\n          \&amp;quot;key\&amp;quot;:\&amp;quot;$projectKey\&amp;quot;         \r\n\n      },\n\t \r\n       \&amp;quot;customfield_10002\&amp;quot;:\&amp;quot;$epicName\&amp;quot;,\n      \r\n       \&amp;quot;summary\&amp;quot;:\&amp;quot;$summary\&amp;quot;,\n      \r\n       \&amp;quot;description\&amp;quot;:\&amp;quot;$description\&amp;quot;,\n\t  \r\n       \&amp;quot;customfield_10504\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;yes\&amp;quot; },\n\t  \r\n       \&amp;quot;customfield_11701\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;Yes\&amp;quot; },\n\t  \r\n       \&amp;quot;customfield_12700\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;Yes\&amp;quot; },\n      \r\n       \&amp;quot;customfield_10113\&amp;quot;:[\n         {\n            \&amp;quot;value\&amp;quot;:\&amp;quot;$relevantPlatform\&amp;quot;\n         }\n      ],\n      \r\n        \&amp;quot;assignee\&amp;quot;:{\&amp;quot;name\&amp;quot;:\&amp;quot;$assignee\&amp;quot;\r\n},\n                \&amp;quot;reporter\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;$reporter\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;components\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;$component\&amp;quot;\r\n\n         }         \r\n\n      ],\n \n      \r\n          \&amp;quot;priority\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;$priority\&amp;quot;\r\n\n      },\n      \r\n       \&amp;quot;issuetype\&amp;quot;:{\n         \r\n          \&amp;quot;name\&amp;quot;:\&amp;quot;$issueType\&amp;quot; \r\n\n      }      \r\n\n   }   \r\n\n}\r\n\n</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:26</date>
+  <millis>1593692066148</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : body = \n{\n   \r\n    \&amp;quot;fields\&amp;quot;:{\n      \r\n       \&amp;quot;project\&amp;quot;:\r\n      {\n         \r\n          \&amp;quot;key\&amp;quot;:\&amp;quot;$projectKey\&amp;quot;         \r\n\n      },\n\t \r\n       \&amp;quot;customfield_10002\&amp;quot;:\&amp;quot;$epicName\&amp;quot;,\n      \r\n       \&amp;quot;summary\&amp;quot;:\&amp;quot;$summary\&amp;quot;,\n      \r\n       \&amp;quot;description\&amp;quot;:\&amp;quot;$description\&amp;quot;,\n\t  \r\n       \&amp;quot;customfield_10504\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;yes\&amp;quot; },\n\t  \r\n       \&amp;quot;customfield_11701\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;Yes\&amp;quot; },\n\t  \r\n       \&amp;quot;customfield_12700\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;Yes\&amp;quot; },\n      \r\n       \&amp;quot;customfield_10113\&amp;quot;:[\n         {\n            \&amp;quot;value\&amp;quot;:\&amp;quot;$relevantPlatform\&amp;quot;\n         }\n      ],\n      \r\n        \&amp;quot;assignee\&amp;quot;:{\&amp;quot;name\&amp;quot;:\&amp;quot;$assignee\&amp;quot;\r\n},\n                \&amp;quot;reporter\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;$reporter\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;components\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;$component\&amp;quot;\r\n\n         }         \r\n\n      ],\n \n      \r\n          \&amp;quot;priority\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;$priority\&amp;quot;\r\n\n      },\n      \r\n       \&amp;quot;issuetype\&amp;quot;:{\n         \r\n          \&amp;quot;name\&amp;quot;:\&amp;quot;$issueType\&amp;quot; \r\n\n      }      \r\n\n   }   \r\n\n}\r\n\n</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:26</date>
+  <millis>1593692066157</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;body =\&amp;quot; + body)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:26</date>
+  <millis>1593692066170</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;body =\&amp;quot; + body)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:26</date>
+  <millis>1593692066175</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Issue/Create_Issue\&amp;quot;), [\&amp;quot;body\&amp;quot;:body], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:26</date>
+  <millis>1593692066520</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Issue/Create_Issue</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Issue/Create_Issue</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Issue/Create_Issue</property>
+  <property name="source">C:\\Users\\michaelsh\\git\\Katalon_JIRA_REST\\Test Cases\\Issue\\Create_Issue.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:26</date>
+  <millis>1593692066540</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>body = \n{\n   \r\n    \&amp;quot;fields\&amp;quot;:{\n      \r\n       \&amp;quot;project\&amp;quot;:\r\n      {\n         \r\n          \&amp;quot;key\&amp;quot;:\&amp;quot;SBC\&amp;quot;         \r\n\n      },\n\t \r\n       \&amp;quot;customfield_10002\&amp;quot;:\&amp;quot;EpicName\&amp;quot;,\n      \r\n       \&amp;quot;summary\&amp;quot;:\&amp;quot;Epic-Summary\&amp;quot;,\n      \r\n       \&amp;quot;description\&amp;quot;:\&amp;quot;Epic-description\&amp;quot;,\n\t  \r\n       \&amp;quot;customfield_10504\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;yes\&amp;quot; },\n\t  \r\n       \&amp;quot;customfield_11701\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;Yes\&amp;quot; },\n\t  \r\n       \&amp;quot;customfield_12700\&amp;quot;:{\&amp;quot;value\&amp;quot;: \&amp;quot;Yes\&amp;quot; },\n      \r\n       \&amp;quot;customfield_10113\&amp;quot;:[\n         {\n            \&amp;quot;value\&amp;quot;:\&amp;quot;All\&amp;quot;\n         }\n      ],\n      \r\n        \&amp;quot;assignee\&amp;quot;:{\&amp;quot;name\&amp;quot;:\&amp;quot;michaelsh\&amp;quot;\r\n},\n                \&amp;quot;reporter\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;michaelsh\&amp;quot;\r\n\n      },\n      \r\n    \&amp;quot;components\&amp;quot;:[\n         \r\n         {\n            \r\n        \&amp;quot;name\&amp;quot;:\&amp;quot;General\&amp;quot;\r\n\n         }         \r\n\n      ],\n \n      \r\n          \&amp;quot;priority\&amp;quot;:{\n         \r\n      \&amp;quot;name\&amp;quot;:\&amp;quot;Low\&amp;quot;\r\n\n      },\n      \r\n       \&amp;quot;issuetype\&amp;quot;:{\n         \r\n          \&amp;quot;name\&amp;quot;:\&amp;quot;Epic\&amp;quot; \r\n\n      }      \r\n\n   }   \r\n\n}\r\n\n</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067360</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067376</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067377</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;in the create OR\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067379</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;in the create OR\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067379</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;body\&amp;quot; + body)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067382</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;body\&amp;quot; + body)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067386</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : createIssueRequest = findTestObject(\&amp;quot;REST/Issue/CreateIssue\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067859</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : createIssueRequest = findTestObject(\&amp;quot;REST/Issue/CreateIssue\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067860</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067861</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : createIssueRequest.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json))</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067887</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : createIssueRequest.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json))</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067888</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(createIssueRequest)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067890</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(createIssueRequest)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067891</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:14:27</date>
+  <millis>1593692067891</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(createIssueRequest)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139132</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\michaelsh\\git\\Katalon_JIRA_REST\\Reports\\20200702_151407\\EpicTest\\20200702_151407\\requests\\main\\0.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">98505bd0-d133-4982-9fe6-c4089ce4ef85</property>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139266</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139268</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(createIssueRequest)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139269</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(response)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139270</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(response)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139270</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = slurper.parseText(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139310</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = slurper.parseText(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139311</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Issue/Create_Issue</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139312</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Issue/Create_Issue</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139319</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Issue/Create_Issue&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139320</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;Issue/Create_Issue\&amp;quot;), [\&amp;quot;body\&amp;quot;:body], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139321</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Epic controller response= $GlobalVariable.response)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139326</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Epic controller response= $GlobalVariable.response)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139326</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jql = Epic Link =\&amp;quot;$id\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139327</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jql = Epic Link =\&amp;quot;$id\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139349</millis>
+  <sequence>63</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Issue/Epic/Epic-Controller FAILED.\nReason:\ngroovy.lang.MissingPropertyException: No such property: id for class: Script1591094305440\r\n\tat Epic-Controller.run(Epic-Controller:89)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1593692047393.run(TempTestSuite1593692047393.groovy:37)\r\n</message>
+  <exception>
+    <message>groovy.lang.MissingPropertyException: No such property: id for class: Script1591094305440</message>
+    <frame>
+      <class>Epic-Controller</class>
+      <method>run</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1593692047393</class>
+      <method>run</method>
+      <line>37</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">groovy.lang.MissingPropertyException: No such property: id for class: Script1591094305440\r\n\tat Epic-Controller.run(Epic-Controller:89)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1593692047393.run(TempTestSuite1593692047393.groovy:37)\r\n</property>
+  <property name="failed.exception.class">groovy.lang.MissingPropertyException</property>
+  <property name="failed.exception.message">No such property: id for class: Script1591094305440</property>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139355</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Issue/Epic/Epic-Controller</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-07-02T15:15:39</date>
+  <millis>1593692139448</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/EpicTest</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

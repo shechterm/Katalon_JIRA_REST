@@ -35,12 +35,11 @@ String body  = """
          \r\n          \"key\":\"${projectKey}\"         \r\n
       },
 	 \r\n       \"customfield_10002\":\"${epicName}\",
-	 \r\n       \"customfield_10504\":\": { "value": "yes" }\",
       \r\n       \"summary\":\"${summary}\",
       \r\n       \"description\":\"${description}\",
-	  \r\n       \"customfield_10504\":{"value": "yes" },
-	  \r\n       \"customfield_11701\":{"value": "Yes" },
-	  \r\n       \"customfield_12700\":{"value": "Yes" },
+	  \r\n       \"customfield_10504\":{\"value\": \"yes\" },
+	  \r\n       \"customfield_11701\":{\"value\": \"Yes\" },
+	  \r\n       \"customfield_12700\":{\"value\": \"Yes\" },
       \r\n       \"customfield_10113\":[
          {
             \"value\":\"${relevantPlatform}\"
@@ -73,6 +72,8 @@ println "body ="+body
 // Call Create issue test case
 
 WS.callTestCase(findTestCase('Issue/Create_Issue'),[('body'):body],FailureHandling.STOP_ON_FAILURE)
+
+println "Epic controller response= $GlobalVariable.response"
 //
 //
 //
@@ -80,12 +81,13 @@ WS.callTestCase(findTestCase('Issue/Create_Issue'),[('body'):body],FailureHandli
 //println GlobalVariable.response
 //
 //String issueKey = GlobalVariable.response.key
-//String id = GlobalVariable.response.id
+String id = GlobalVariable.response.id
+
 //println "issue key = ${issueKey} | key = ${id}"
-//
 
 ////Check all issues another the epic was created
-//WS.callTestCase(findTestCase('Issue/runJql'),[('Epic Link'):issueKey],FailureHandling.STOP_ON_FAILURE)
+def jql= "Epic Link =\"${id}\""
+WS.callTestCase(findTestCase('/jql/runJql'),[('jql'):jql],FailureHandling.STOP_ON_FAILURE)
 //
 //
 //

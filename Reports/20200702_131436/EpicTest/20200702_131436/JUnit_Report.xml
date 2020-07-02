@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EpicTest" time="13.44" tests="1" failures="0" errors="0">
+   <testsuite name="EpicTest" tests="1" failures="0" errors="0" time="13.44" timestamp="2020-07-02 13:14:52" hostname="michaelsh - IL-MICHAELSH-LP.corp.audiocodes.com" id="Test Suites/EpicTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\michaelsh\\git\\Katalon_JIRA_REST\\Reports\\20200702_131436\\EpicTest\\20200702_131436"/>
+         <property name="logFiles" value="C:\\Users\\michaelsh\\git\\Katalon_JIRA_REST\\Reports\\20200702_131436\\EpicTest\\20200702_131436\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="michaelsh - IL-MICHAELSH-LP.corp.audiocodes.com"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.10.1"/>
+      </properties>
+      <testcase name="Test Cases/Issue/Epic/Epic-Controller" time="12.539" classname="Test Cases/Issue/Epic/Epic-Controller" status="PASSED">
+         <system-out><![CDATA[2020-07-02 13:14:53 - [TEST_CASE][PASSED] - Test Cases/Issue/Epic/Epic-Controller: Test Cases/Issue/Epic/Epic-Controller
+
+2020-07-02 13:14:55 - [TEST_STEP][PASSED] - body = 
+{
+   
+    "fields":{
+      
+       "project":
+      {
+         
+          "key":"$projectKey"         
+
+      },
+	 
+       "customfield_10002":"$epicName",
+	 
+       "customfield_10504":": { "value": "yes" }",
+      
+       "summary":"$summary",
+      
+       "description":"$description",
+	  
+       "customfield_10504":{"value": "yes" },
+	  
+       "customfield_11701":{"value": "Yes" },
+	  
+       "customfield_12700":{"value": "Yes" },
+      
+       "customfield_10113":[
+         {
+            "value":"$relevantPlatform"
+         }
+      ],
+      
+        "assignee":{"name":"$assignee"
+},
+                "reporter":{
+         
+      "name":"$reporter"
+
+      },
+      
+    "components":[
+         
+         {
+            
+        "name":"$component"
+
+         }         
+
+      ],
+ 
+      
+          "priority":{
+         
+      "name":"$priority"
+
+      },
+      
+       "issuetype":{
+         
+          "name":"$issueType" 
+
+      }      
+
+   }   
+
+}
+
+: null
+
+2020-07-02 13:14:56 - [TEST_STEP][PASSED] - println("body =" + body): null
+
+2020-07-02 13:14:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Issue/Create_Issue"), ["body":body], STOP_ON_FAILURE): Call Test Case 'Test Cases/Issue/Create_Issue' successfully
+
+2020-07-02 13:14:56 - [TEST_CASE][PASSED] - Test Cases/Issue/Create_Issue: Test Cases/Issue/Create_Issue
+
+2020-07-02 13:14:57 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2020-07-02 13:14:57 - [TEST_STEP][PASSED] - println("in the create OR"): null
+
+2020-07-02 13:14:57 - [TEST_STEP][PASSED] - println("body" + body): null
+
+2020-07-02 13:14:57 - [TEST_STEP][PASSED] - createIssueRequest = findTestObject("REST/Issue/CreateIssue"): null
+
+2020-07-02 13:14:58 - [TEST_STEP][PASSED] - try: null
+
+2020-07-02 13:14:58 - [TEST_STEP][PASSED] - createIssueRequest.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json)): null
+
+2020-07-02 13:14:58 - [TEST_STEP][PASSED] - println(createIssueRequest): null
+
+2020-07-02 13:14:58 - [TEST_STEP][PASSED] - response = sendRequest(createIssueRequest): Send request successfully
+
+2020-07-02 13:15:05 - [MESSAGE][INFO] - HAR: C:\Users\michaelsh\git\Katalon_JIRA_REST\Reports\20200702_131436\EpicTest\20200702_131436\requests\main\0.har
+
+2020-07-02 13:15:05 - [MESSAGE][PASSED] - Send request successfully
+
+2020-07-02 13:15:05 - [TEST_STEP][PASSED] - println(response): null
+
+2020-07-02 13:15:05 - [TEST_STEP][PASSED] - response = slurper.parseText(response.getResponseBodyContent()): null
+
+2020-07-02 13:15:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Issue/Create_Issue' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-02 13:14:52 - [TEST_SUITE][PASSED] - EpicTest: Test Cases/Issue/Epic/Epic-Controller]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

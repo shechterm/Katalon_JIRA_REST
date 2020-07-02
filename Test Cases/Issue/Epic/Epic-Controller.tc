@@ -62,7 +62,7 @@
       <name>reporter</name>
    </variable>
    <variable>
-      <defaultValue>'Genral'</defaultValue>
+      <defaultValue>'General'</defaultValue>
       <description></description>
       <id>bc020873-e3ac-433b-ad5d-33cae675a6b6</id>
       <masked>false</masked>

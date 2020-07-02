@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EpicTest" time="3.573" tests="1" failures="0" errors="0">
+   <testsuite name="EpicTest" tests="1" failures="0" errors="0" time="3.573" timestamp="2020-07-02 13:12:51" hostname="michaelsh - IL-MICHAELSH-LP.corp.audiocodes.com" id="Test Suites/EpicTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\michaelsh\\git\\Katalon_JIRA_REST\\Reports\\20200702_131215\\EpicTest\\20200702_131215"/>
+         <property name="logFiles" value="C:\\Users\\michaelsh\\git\\Katalon_JIRA_REST\\Reports\\20200702_131215\\EpicTest\\20200702_131215\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="michaelsh - IL-MICHAELSH-LP.corp.audiocodes.com"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.10.1"/>
+      </properties>
+      <testcase name="Test Cases/Issue/Epic/Epic-Controller" time="2.121" classname="Test Cases/Issue/Epic/Epic-Controller" status="PASSED">
+         <system-out><![CDATA[2020-07-02 13:12:52 - [TEST_CASE][PASSED] - Test Cases/Issue/Epic/Epic-Controller: Test Cases/Issue/Epic/Epic-Controller
+
+2020-07-02 13:12:54 - [TEST_STEP][PASSED] - body = 
+{
+   
+    "fields":{
+      
+       "project":
+      {
+         
+          "key":"$projectKey"         
+
+      },
+	 
+       "customfield_10002":"$epicName",
+	 
+       "customfield_10504":": { "value": "yes" }",
+      
+       "summary":"$summary",
+      
+       "description":"$description",
+	  
+       "customfield_10504":{"value": "yes" },
+	  
+       "customfield_11701":{"value": "Yes" },
+	  
+       "customfield_12700":{"value": "Yes" },
+      
+       "customfield_10113":[
+         {
+            "value":"$relevantPlatform"
+         }
+      ],
+      
+        "assignee":{"name":"$assignee"
+},
+                "reporter":{
+         
+      "name":"$reporter"
+
+      },
+      
+    "components":[
+         
+         {
+            
+        "name":"$component"
+
+         }         
+
+      ],
+ 
+      
+          "priority":{
+         
+      "name":"$priority"
+
+      },
+      
+       "issuetype":{
+         
+          "name":"$issueType" 
+
+      }      
+
+   }   
+
+}
+
+: null
+
+2020-07-02 13:12:54 - [TEST_STEP][PASSED] - println("body =" + body): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-02 13:12:51 - [TEST_SUITE][PASSED] - EpicTest: Test Cases/Issue/Epic/Epic-Controller]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
