@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>runJql</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac32c45b-668e-4fea-8fbd-63909dfca155</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>149bf42a-6f31-4ef7-a51f-2e057e6f2385</id>
+      <masked>false</masked>
+      <name>jql</name>
+   </variable>
+</TestCaseEntity>

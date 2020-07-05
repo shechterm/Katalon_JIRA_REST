@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;jql\&quot;: \&quot;project is not empty\&quot;,\n  \&quot;startAt\&quot;: 0,\n  \&quot;maxResults\&quot;: 1,\n  \&quot;fields\&quot;: [\n    \&quot;id\&quot;\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;jql\&quot;: \&quot;${jql}\&quot;,\n  \&quot;startAt\&quot;: 0,\n  \&quot;maxResults\&quot;: 50,\n   \&quot;fields\&quot;: [\n    \&quot;key\&quot;,\n    \&quot;status\&quot;\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -17,16 +17,16 @@
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
+      <name>Content-Type</name>
       <type>Main</type>
-      <value>Basic bWljaGFlbHNoOkdmb2U3MTg2ITMwMDUq</value>
+      <value>application/json</value>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
+      <name>Authorization</name>
       <type>Main</type>
-      <value>application/json</value>
+      <value>Basic bWljaGFlbHNoOkdmb2U3MTg2ITI1MDkq</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
@@ -46,11 +46,11 @@
       <name>URL</name>
    </variables>
    <variables>
-      <defaultValue>'jql'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>823c584f-42ee-478c-8967-cae894213e47</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>jql</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

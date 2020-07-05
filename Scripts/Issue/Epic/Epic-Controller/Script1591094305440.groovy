@@ -81,13 +81,13 @@ println "Epic controller response= $GlobalVariable.response"
 //println GlobalVariable.response
 //
 //String issueKey = GlobalVariable.response.key
-String id = GlobalVariable.response.id
+String key = GlobalVariable.response.key
 
 //println "issue key = ${issueKey} | key = ${id}"
 
 ////Check all issues another the epic was created
-String  jql= "Epic Link =\"${id}\""
-WS.callTestCase(findTestCase('/jql/runJql'),[('jql'):jql],FailureHandling.STOP_ON_FAILURE)
+String  jql= "\"Epic Name\" =\"SBC-18628\""
+WS.callTestCase(findTestCase('Issue/jql/runJql'),[('jql'):jql],FailureHandling.STOP_ON_FAILURE)
 //
 //
 //
