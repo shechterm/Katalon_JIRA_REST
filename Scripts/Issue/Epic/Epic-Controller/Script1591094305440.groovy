@@ -71,7 +71,7 @@ println "body ="+body
 //
 // Call Create issue test case
 
-WS.callTestCase(findTestCase('Issue/Create_Issue'),[('body'):body],FailureHandling.STOP_ON_FAILURE)
+WS.callTestCase(findTestCase('Issue/Operation/Create_Issue'),[('body'):body],FailureHandling.STOP_ON_FAILURE)
 
 println "Epic controller response= $GlobalVariable.response"
 //
@@ -86,7 +86,7 @@ String id = GlobalVariable.response.id
 //println "issue key = ${issueKey} | key = ${id}"
 
 ////Check all issues another the epic was created
-def jql= "Epic Link =\"${id}\""
+String  jql= "Epic Link =\"${id}\""
 WS.callTestCase(findTestCase('/jql/runJql'),[('jql'):jql],FailureHandling.STOP_ON_FAILURE)
 //
 //
@@ -100,7 +100,7 @@ WS.callTestCase(findTestCase('/jql/runJql'),[('jql'):jql],FailureHandling.STOP_O
 //
 //
 //// Call get transition testCase
-//WS.callTestCase(findTestCase('Issue/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
+//WS.callTestCase(findTestCase('Issue/Operation/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
 //println "### get transition response from  controller  = ${GlobalVariable.response}  #####"
 //
 //GlobalVariable.response.transitions.each{ println it.name}
@@ -130,11 +130,11 @@ WS.callTestCase(findTestCase('/jql/runJql'),[('jql'):jql],FailureHandling.STOP_O
 //   }
 //}
 //"""
-//WS.callTestCase(findTestCase('Issue/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
+//WS.callTestCase(findTestCase('Issue/Operation/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
 //
 //// Get transitions
 //requriedTransitionName = 'Done'
-//WS.callTestCase(findTestCase('Issue/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
+//WS.callTestCase(findTestCase('Issue/Operation/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
 //transitionId = GlobalVariable.response.transitions.find{ it.name ==requriedTransitionName }.id
 //// Move issue to Done
 //body="""
@@ -149,7 +149,7 @@ WS.callTestCase(findTestCase('/jql/runJql'),[('jql'):jql],FailureHandling.STOP_O
 //   }
 //}
 //"""
-//WS.callTestCase(findTestCase('Issue/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
+//WS.callTestCase(findTestCase('Issue/Operation/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
 //
 //
 

@@ -14,7 +14,7 @@
       <guid>690de668-48ab-4aff-8fcb-6d25a9b4cace</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Issue/Simple createEditTransition issue/Controller</testCaseId>
+      <testCaseId>Test Cases/Issue/Simple createEditTransition issue/Controller-CreateEditTransition</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c40aff7d-e8aa-4451-8dda-22e7be7f2c91</id>

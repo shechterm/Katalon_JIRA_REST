@@ -15,13 +15,6 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>kat-7311602114344806288.groovy</name>
-			<type>1</type>
-			<location>C:/Users/MICHAE~1/AppData/Local/Temp/Katalon/Web Services/kat-7311602114344806288.groovy</location>
-		</link>
-	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1582751905105</id>

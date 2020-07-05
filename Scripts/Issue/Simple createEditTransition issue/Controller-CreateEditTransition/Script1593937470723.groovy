@@ -65,7 +65,7 @@ String body  = """
 """
 
 // Call Create issue test case
-WS.callTestCase(findTestCase('Issue/Create_Issue'),[('body'):body],FailureHandling.STOP_ON_FAILURE)//
+WS.callTestCase(findTestCase('Issue/Operation/Create_Issue'),[('body'):body],FailureHandling.STOP_ON_FAILURE)//
 
 println GlobalVariable.response
 
@@ -76,14 +76,14 @@ println "issue key = ${issueKey} | key = ${id}"
 
 
 // Call get transition testCase
-WS.callTestCase(findTestCase('Issue/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
+WS.callTestCase(findTestCase('Issue/Operation/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
 println "### get transition response from  controller  = ${GlobalVariable.response}  #####"
 
 GlobalVariable.response.transitions.each{ println it.name}
 
 println GlobalVariable.response
 
-requriedTransitionName = 'In Progres3'
+requriedTransitionName = 'In Progress'
 
 String transitionId = GlobalVariable.response.transitions.find{ it.name ==requriedTransitionName }.id
 println "transitionId = ${transitionId}"
@@ -106,11 +106,11 @@ body="""
    }
 }
 """
-WS.callTestCase(findTestCase('Issue/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
+WS.callTestCase(findTestCase('Issue/Operation/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
 
 // Get transitions
 requriedTransitionName = 'Done'
-WS.callTestCase(findTestCase('Issue/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
+WS.callTestCase(findTestCase('Issue/Operation/getTransition'),[('issueKey'):issueKey],FailureHandling.STOP_ON_FAILURE)
 transitionId = GlobalVariable.response.transitions.find{ it.name ==requriedTransitionName }.id
 // Move issue to Done
 body="""
@@ -125,7 +125,7 @@ body="""
    }
 }
 """
-WS.callTestCase(findTestCase('Issue/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
+WS.callTestCase(findTestCase('Issue/Operation/Transition_Issue'),[('issueKey'):issueKey,('transitionId'):transitionId,('body'):body],FailureHandling.STOP_ON_FAILURE)
 
 
 
